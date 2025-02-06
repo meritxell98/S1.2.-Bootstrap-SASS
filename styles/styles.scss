@@ -12,9 +12,11 @@ $theme-colors: (
 $navbar-light-toggler-icon-bg: url("/media/icon-hamburger.svg");
 $navbar-light-toggler-border-color: white;
 
+$accordion-button-icon: url('/media/icon-arrow.svg');
 
-
-
+$nav-underline-link-active-color: $secondary;
+$nav-underline-border-width: 0.2rem;
+$nav-link-color: grey;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss"
 
