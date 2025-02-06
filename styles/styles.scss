@@ -1,0 +1,21 @@
+//custom variables
+
+$primary: #5265E1;
+$secondary: #FA5959;
+$light: white;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary
+);
+
+$navbar-light-toggler-icon-bg: url("/media/icon-hamburger.svg");
+$navbar-light-toggler-border-color: white;
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
+
+

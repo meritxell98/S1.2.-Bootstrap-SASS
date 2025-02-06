@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  name="author" content="Meritxell Jordan">
+    <title>S1.2. Bootstrap&SASS</title>
+    <link rel="icon" type="image/x-icon" href="/media/favicon-32x32.png">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white ms-5 me-5">
+            <div class="container-xxl">
+                <a class="navbar-brand" href="#">
+                    <img src="/media/logo-bookmark.svg" alt="logo Bookmark">
+                </a>
+                <!-- toggle button for mobile nav -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">FEATURES</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">PRINCING</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-secondary" type="button" href="#">LOGIN</a>
+                          </li>
+                      </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main class="mt-5">
+        <!-- intro -->
+        <section class="my-5" id="intro">
+            <div class="container-lg">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5 text-center text-md-start p-5">
+                        <h1>A Simple Bookmark Manager</h1>
+                        <p class="text-muted">A clean and simple inferface to organize your favourite websites. Open a new browser tab and see your sites load instatly. Try it for free.</p>
+                        <button class="btn btn-primary shadow">Get it on Chrome</button>
+                        <button class="btn shadow">Get it  on Firefox</button>
+                    </div>
+                    <div class="col-md-5 text-center d-md-block">
+                        <img class="img-fluid" src="/media/illustration-hero.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
